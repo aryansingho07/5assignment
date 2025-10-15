@@ -1,0 +1,132 @@
+/* Container */
+.apt-container {
+  width: 350px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+}
+
+.apt-heading {
+  margin: 0 0 16px 0;
+  font-weight: 600;
+}
+
+/* Form */
+.apt-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.apt-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.apt-label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* File input */
+.apt-file-wrapper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.apt-file-wrapper input[type="file"] {
+  position: absolute;
+  left: -9999px;
+}
+
+.apt-file-button {
+  background: #6a0dad;
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+.apt-file-button:hover {
+  background: #5a0bb8;
+}
+
+/* Preview */
+.apt-preview {
+  display: flex;
+  justify-content: center;
+}
+
+.apt-preview-image {
+  max-width: 100%;
+  max-height: 220px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Textarea */
+.apt-textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  font-size: 14px;
+  font-family: inherit;
+  resize: vertical;
+  min-height: 120px;
+}
+
+.apt-textarea:focus {
+  outline: none;
+  border-color: #6a0dad;
+  box-shadow: 0 0 0 3px rgba(106, 13, 173, 0.1);
+}
+
+/* Messages */
+.apt-error {
+  background: #ffe6e6;
+  color: #c62828;
+  padding: 10px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.apt-success {
+  background: #e6ffef;
+  color: #1b5e20;
+  padding: 10px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+/* Submit */
+.apt-submit {
+  background: #6a0dad;
+  color: #fff;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out, transform 0.05s ease-in-out;
+}
+
+.apt-submit:hover {
+  background: #5a0bb8;
+}
+
+.apt-submit:active {
+  transform: translateY(1px);
+}
+
+@media (max-width: 420px) {
+  .apt-container {
+    width: 100%;
+    border-radius: 0;
+  }
+}
+

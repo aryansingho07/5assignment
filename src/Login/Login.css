@@ -1,0 +1,133 @@
+.login-headers {
+  width: 350px;
+  min-height: 600px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  padding: 40px 20px;
+  background-color: #f3e8ff;
+}
+.login-head2 {
+  margin: 2px;
+  font-weight: 700;
+  color: #000;
+}
+.login-para {
+  font-size: 14px;
+  color: #777;
+}
+
+.logininput {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  position: static;
+  max-width: 240px;
+  font-size: larger;
+}
+
+.logininput label.text {
+  font-size: 14px;
+  color:#020356;
+  font-weight: 700;
+  position: relative;
+  top: 0.5rem;
+  margin: 0 0 0 15px;
+  padding: 0 3px;
+  background: #f3e8ff;
+  width: fit-content;
+}
+
+.logininput input[type="text"].input {
+  width: 137%;
+  padding: 12px 18px;
+  font-size: 15px;
+  border: 2px #6a0dad solid;
+  border-radius: 5px;
+  background: #f3e8ff;
+}
+
+.logininput input[type="text"].input:focus {
+  outline: none;
+}
+
+.loginsinput {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  position: static;
+  max-width: 240px;
+  font-size: larger;
+}
+
+.loginsinput label.text {
+  font-size: 14px;
+  color:#020356;
+  font-weight: 700;
+  position: relative;
+  top: 0.5rem;
+  margin: 0 0 0 15px;
+  padding: 0 3px;
+  background: #f3e8ff;
+  width: fit-content;
+}
+
+.loginsinput input[type="password"].input {
+  width: 137%;
+  padding: 12px 18px;
+  font-size: 15px;
+  border: 2px #6a0dad solid;
+  border-radius: 5px;
+  background: #f3e8ff;
+}
+
+.loginsinput input[type="password"].input:focus {
+  outline: none;
+}
+
+button {
+  width: 100%;
+  height: 45px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.login-links {
+  background-color: #6a0dad; 
+  color:white; 
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+.submit-form{
+    margin: 20px 2px;
+}
+/* Inline feedback messages */
+.error-message {
+  color: #dc2626;
+  background-color: #fee2e2;
+  border: 1px solid #fecaca;
+  padding: 10px 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.success-message {
+  color: #16a34a;
+  background-color: #dcfce7;
+  border: 1px solid #bbf7d0;
+  padding: 10px 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+}
